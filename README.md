@@ -16,29 +16,34 @@ Value: Insight untuk prediksi kemacetan Jakarta
 🎯 Fitur Utama
 
 📊 Dashboard Utama
+
 Status traffic real-time untuk 5 wilayah Jakarta
 Visualisasi pattern kendaraan per jam (24 jam)
 Top 10 kemacetan terbesar
 Statistik agregat (avg kendaraan, kecepatan, dll)
 
 🌤️ Monitoring Cuaca Real-Time
+
 Integrasi dengan Open-Meteo API
 Data cuaca 5 wilayah Jakarta (Pusat, Utara, Selatan, Timur, Barat)
 Kategori hujan: None, Light, Moderate, Heavy, Extreme
 Pengaruh cuaca terhadap traffic density
 
 📋 Data Raw & Export
+
 View data traffic & weather
 Filter berdasarkan lokasi
 Download CSV untuk analisis lanjutan
 
 🔄 Simulasi Real-Time
+
 Auto-generate traffic data berdasarkan:
 Pattern jam puncak (06:00-09:00, 16:00-19:00)
 Kondisi cuaca (hujan = +30% - +100% traffic)
 Variasi per lokasi
 
 🛠️ Teknologi yang Digunakan
+
 Teknologi	          Fungsi
 Python 3.8+	        Backend & logic
 Streamlit	          Web dashboard framework
@@ -78,17 +83,26 @@ Hanya dijalankan sekali (saat database kosong)
 
 
 Dashboard siap digunakan!
+
 Fitur-Fitur Dashboard
+
 🔄 Refresh Simulasi
+
 Klik tombol "Refresh Simulasi" di sidebar
 Generate traffic data baru berdasarkan waktu & cuaca saat ini
+
 🌤️ Refresh Cuaca
+
 Klik tombol "Refresh Cuaca" di sidebar
 Fetch data cuaca real-time dari Open-Meteo API
+
 📍 Filter Lokasi
+
 Pilih lokasi spesifik di dropdown
 Lihat data untuk 1 wilayah saja
+
 📥 Download Data
+
 Buka tab "Data Raw"
 Klik "Download CSV" untuk export data
 
@@ -98,7 +112,9 @@ Pagi: 06:00 - 09:00 (commute ke kantor)
 Sore: 16:00 - 19:00 (pulang kantor)
 
 Kategori Kondisi Traffic:
+
 KondisiRange Kendaraan
+
 🟢 Lancar0 - 100
 🟡 Sedang100 - 200
 🟠 Padat200 - 350

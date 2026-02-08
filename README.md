@@ -50,6 +50,7 @@ Requests	          API calls (Open-Meteo)
 Scikit-learn	      Machine learning analytics
 
 🚀 Cara Install & Menjalankan
+
 1️⃣ Clone Repository
 bashgit clone https://github.com/4andreas/-Bigdata-Traffic-Jakarta.git
 cd -Bigdata-Traffic-Jakarta
@@ -66,6 +67,7 @@ Dashboard akan terbuka otomatis di browser pada:
 http://localhost:8501
 
 💡 Cara Menggunakan
+
 Pertama Kali Dijalankan
 
 Aplikasi akan auto-generate data historis (30 hari terakhir)

@@ -159,6 +159,5 @@ Open-Meteo API: Weather data provider
 
 Streamlit: Web dashboard framework 
 
-Python Community: Amazing libraries     
-
+Open-source Python
  

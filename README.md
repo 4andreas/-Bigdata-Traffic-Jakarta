@@ -116,12 +116,17 @@ Kategori Kondisi Traffic:
 KondisiRange Kendaraan
 
 🟢 Lancar0 - 100
+
 🟡 Sedang100 - 200
+
 🟠 Padat200 - 350
+
 🔴 Sangat Padat350 - 500
+
 ⚫ Macet500+
 
 Pengaruh Hujan
+
 Kategori        Impact Factor        Keterangan
 None            1.0x                 Tidak ada pengaruh
 Light           1.3x                 +30% traffic
@@ -130,20 +135,30 @@ Heavy           1.8x                 +80% traffic
 Extreme         2.0x                 +100% traffic
 
 🌐 API yang Digunakan
+
 Open-Meteo Weather API
 URL: https://api.open-meteo.com/v1/forecast
+
 Gratis: Tidak perlu API key
 Data: Temperature, precipitation, windspeed, weather code
+
 Timezone: Asia/Jakarta
 
 👨‍💻 Developer
+
 Andreas Sembiring
 
+
 📄 License
+
 Project ini dibuat untuk keperluan akademis - Tugas Big Data.
 
 🙏 Credits
+
 Open-Meteo API: Weather data provider
+
 Streamlit: Web dashboard framework
+
 Python Community: Amazing libraries
+
  
